@@ -1,2 +1,2 @@
 # retina-simulator
-Color uptake
+Color uptake and pre classificaton of the Retina
