@@ -113,7 +113,7 @@ if __name__ == "__main__":
         "Pure Blue": [0.0, 0.0, 1.0],
         "Neutral Gray": [0.5, 0.5, 0.5]
     }
-
+    # its like a color -> energy/channel converter
     for name, rgb in test_colors.items():
         res = sim.process_color(rgb)
         print_color_analysis(name, res)
